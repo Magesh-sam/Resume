@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Mina&display=swap');
+body
+{
+    font-family: 'Mina', sans-serif;
+}
+nav
+{
+    opacity: 0.8;
+}
+.navbar-brand i
+{
+    color: white;
+    font-size: xx-large;
+}
+
+.big-banner
+{
+    background: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.welcome-text
+{
+    text-align: center;
+    padding-top: 18%;
+    color: green;
+    font-weight: bold;
+    padding-bottom: 10%;
+
+}
+.lang
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.intrest
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.big-banner2
+{
+    background: url('background-2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.quotes
+{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}   
+.author
+{
+    text-align: left;
+    padding-right: 20%;
+    padding-left: 65%;
+    font-size: 20px;
+
+}
+.be-cse
+{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.hsc
+{
+    padding-left: 30%;
+    padding-top: 5%;
+}
+.sslc
+{
+    padding-top: 5%;
+    padding-left: 50%;
+    padding-bottom: 5%;
+}
+.big-banner3
+{
+    background: url('background-3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.pgm h3,.soft h3,.projects h3,.awards h3
+{
+    padding-left: 5%;
+    color: darkgreen;
+    padding-top: 5%;
+}
+.pgm p,.soft p,.projects p,.awards p
+{
+    padding-left: 10%;
+    color: darkred;
+}
+.pgm p:hover,.soft p:hover,.projects p:hover
+{
+    color: deeppink;
+}
+.big-banner4
+{
+    background: url('background-4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.big-banner5
+{
+    background: url('background-5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+  }
+ 
+
+  .m12 {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
